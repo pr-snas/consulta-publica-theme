@@ -27,25 +27,122 @@ body {
   background: none;
 }
 
+#user {
+  top: 20px;
+}
+
 #user #top-search {
   display: none;
+}
+
+/* * * * * Site title * * * * */
+
+#site-title,
+#site-title a {
+  width: 300px;
+  height: 66px;
+}
+
+#site-title {
+  left: 10px;
+}
+
+#site-title a {
+  top: auto;
+  left: auto;
+}
+
+#logo-ambiente {
+  background: transparent url(images/logo-ambiente.png) center center no-repeat;
 }
 
 /* * * * * Header * * * * */
 
 #theme-header {
-  background: transparent url(images/bg-top.png) top center repeat-x;
   height: 50px;
 }
 
-#theme-header div {
-  margin: auto;
+#barra-brasil {
+  position:relative;
+  overflow:hidden;
+  min-width:1000px;
+  background: #004b82 url(images/barra-brasil-v3-bgx.png) center bottom no-repeat;
+}
+
+#barra-brasil a,
+#barra-brasil a:visited {
+  color: #004b82;
+}
+
+#barra-brasil .barra {
+  display: block;
   width: 960px;
+  height:28px;
+  margin: 0 auto;
+  background: url(images/barra-brasil-v3-bgx.gif) 0 bottom repeat-x;
+}
+
+#barra-brasil .barra ul {
+  float:right;
+  width: 319px;
+  margin: 0px;
+  list-style: none;
+}
+
+#barra-brasil .barra ul li {
+  float: left;
+  padding-left: 25px;
+}
+
+#barra-brasil .ai {
+  display: block;
+  width: 161px;
+  height: 28px;
+  text-indent: -1000px;
+  background: #004b82 url(images/ai.png) no-repeat 0 4px;
+}
+
+#barra-brasil .brasilgov {
+  display: block;
+  width: 108px;
+  height: 28px;
+  text-indent: -1000px;
+  background: #004b82 url(images/brasil.png) no-repeat 0 4px;
+}
+
+#theme-header #barra-social {
+  width: 960px;
+  margin: 5px auto 0px;
+  margin-top: 5px;
   text-align: right;
 }
 
-#barra-brasil {
-  height: 28px;
+#barra-social a {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+#barra-social a:hover {
+  box-shadow: 0px 0px 5px #888;
+}
+
+#barra-social .twitter-bt {
+  background: transparent url(images/bt-twitter.png) center center no-repeat;
+}
+
+#barra-social .fb-bt {
+  background: transparent url(images/bt-facebook.png) center center no-repeat;
+}
+
+#barra-social .feed-bt {
+  background: transparent url(images/bt-rss.png) center center no-repeat;
+}
+
+#barra-social a span {
+  display: none;
 }
 
 /* * * * * Navigation * * * * */
@@ -106,6 +203,7 @@ body {
 
 #theme-footer a:hover {
   box-shadow: 0px 0px 5px #888;
+  text-decoration: none;
 }
 
 #footer-links {
@@ -133,35 +231,59 @@ body {
 
 #footer-logos a {
   display: block;
-  height: 70px;
+  height: 79px;
   float: left;
+}
+
+#footer-logos #who-serpro {
+  background: transparent url(images/logo-serpro.png) center center no-repeat;
+  width: 118px;
 }
 
 #footer-logos #who-ps {
   background: transparent url(images/logo-ps.png) center center no-repeat;
-  width: 140px;
+  width: 150px;
 }
 
-#footer-logos #who-ps span {
+#footer-logos #who-sgpr {
+  background: transparent url(images/logo-sgpr.png) center center no-repeat;
+  width: 196px;
+}
+
+#footer-logos #who-governo {
+  background: transparent url(images/logo-governo-federal.png) center center no-repeat;
+  width: 225px;
+}
+
+#footer-logos span {
   display: none;
 }
 
+#footer-logos .realizacao {
+  float: right;
+}
+
 #footer-code {
-  position: absolute;
-  right: 0px;
+  margin-top: 40px;
+  text-align: right;
 }
 
 #footer-code a {
-  display: block;
+  display: inline-block;
   height: 30px;
-  float: left;
+  width: 27px;
+  padding: 2px;
 }
 
 #footer-code #site-noosfero {
   background: transparent url(images/logo-noosfero.png) center center no-repeat;
-  width: 29px;
 }
 
-#footer-code #site-noosfero span {
+#footer-code #github-noosfero {
+  background: transparent url(images/bt-github.png) center center no-repeat;
+  margin-left: 10px;
+}
+
+#footer-code span {
   display: none;
 }
