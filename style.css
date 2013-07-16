@@ -5,6 +5,10 @@ body {
   color: #6F6F6F;
 }
 
+p {
+  line-height: 18px;
+}
+
 #wrap-1 {
   width: 100%;
 }
@@ -211,15 +215,68 @@ body {
 }
 
 .action-home-index #content .article-block p {
-  line-height: 18px;
   color: #777;
 }
+
+/* * * * * Profile blocks * * * * */
+
+.article-block .alerta-prazo {
+  background-color: #ece2c0;
+  padding: 10px;
+}
+
+.template-nosidebars #content .block-title {
+  color: #444;
+  border-bottom: 2px solid #f88021;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+.template-nosidebars #content .article-block {
+  display: inline-block;
+}
+
+.template-nosidebars #content .article-block {
+  width: 70%;
+}
+
+.template-nosidebars #content .article-block + .article-block {
+  width: 28%;
+  vertical-align: top;
+}
+
+.template-nosidebars #content .article-block h2 {
+  font-weight: normal;
+  font-size: 33px;
+  color: #1879BE;
+}
+
+.template-nosidebars #content .article-block a,
+.template-nosidebars #content .article-block a:visited {
+  color: #f88021;
+  font-weight: bold;
+}
+
+.template-nosidebars #content .article-block a:hover {
+  color: #f85b21;
+}
+
 
 /* * * * * Content * * * * */
 
 #content {
   border-top: 1px dashed #969696;
   padding-top: 20px;
+}
+
+#content .main-block h1, #not-found h1, #access-denied h1,
+#content .block-title {
+  font-variant: normal;
+}
+
+#content .block-title {
+  text-transform: uppercase;
 }
 
 /* * * * * Footer * * * * */
