@@ -184,10 +184,42 @@ body {
   border-top: none;
 }
 
+/* * * * * Home blocks * * * * */
+
+.action-home-index #content .article-block {
+  background-color: #FFF;
+}
+.action-home-index #content .article-block:hover {
+  background-color: #054b7f;
+}
+.action-home-index #content .article-block:hover p {
+  color: #FFF;
+}
+
+.action-home-index #content .article-block .block-inner-2 {
+  padding: 15px;
+}
+
+.action-home-index #content .article-block h2 {
+  font-weight: normal;
+  font-size: 35px;
+  color: #1879BE;
+}
+
+.action-home-index #content .article-block:hover h3 {
+  color: #f88021;
+}
+
+.action-home-index #content .article-block p {
+  line-height: 18px;
+  color: #777;
+}
+
 /* * * * * Content * * * * */
 
 #content {
   border-top: 1px dashed #969696;
+  padding-top: 20px;
 }
 
 /* * * * * Footer * * * * */
