@@ -218,11 +218,33 @@ p {
   color: #777;
 }
 
+.action-home-index .article-block .destaque-consulta {
+  background-color: #f7e074;
+  padding: 15px 10px;
+  margin: -15px;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #282828;
+}
+
+.action-home-index .article-block .destaque-consulta a {
+  color: #004b82;
+}
+
+.action-home-index .article-block .destaque-consulta a:hover {
+  color: #1879BE;
+}
+
 /* * * * * Profile blocks * * * * */
 
 .article-block .destaque-consulta {
   background-color: #f7e074;
   padding: 10px;
+}
+
+.template-nosidebars #content #main-content-wrapper-8 {
+  padding-left: 0px;
 }
 
 .template-nosidebars #content .block-title {
@@ -277,6 +299,22 @@ p {
 
 #content .block-title {
   text-transform: uppercase;
+}
+
+#content #article-toolbar  h1 {
+  color: #151515;
+  border-bottom: none;
+}
+
+.template-nosidebars #content .main-block {
+  border-top: 1px dashed #969696;
+  margin-top: 15px;
+  padding-top: 10px;
+}
+
+#article #addThis {
+  position: absolute;
+  top: -70px;
 }
 
 /* * * * * Comments * * * * */
