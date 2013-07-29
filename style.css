@@ -335,13 +335,15 @@ p {
 .comment-wrapper-6,
 .comment-wrapper-7,
 .comment-wrapper-8,
+.comment-from-owner .comment-wrapper-1,
 .comment-from-owner .comment-wrapper-2,
 .comment-from-owner .comment-wrapper-3,
 .comment-from-owner .comment-wrapper-4,
 .comment-from-owner .comment-wrapper-5,
 .comment-from-owner .comment-wrapper-6,
 .comment-from-owner .comment-wrapper-7,
-.comment-from-owner .comment-wrapper-8 {
+.comment-from-owner .comment-wrapper-8,
+.comment-replies .comment-from-owner.comment-content {
   background: none;
 }
 
